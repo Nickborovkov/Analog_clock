@@ -7,7 +7,7 @@
 .clock{
     width: 500px;
     height: 500px;
-    background-image: url("../assets/pattern.png");
+    background-image: url("assets/pattern.png");
     border: 2px solid black;
     box-sizing: border-box;
     margin: 100px auto;
@@ -139,7 +139,7 @@
     z-index: 4;
     width: 50px;
     height: 50px;
-    background-image: url("../assets/pattern.png");
+    background-image: url("assets/pattern.png");
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
