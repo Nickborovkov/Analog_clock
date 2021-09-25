@@ -193,11 +193,11 @@
 }
 .day:nth-child(4){
     top: 76px;
-    left: 51px;
+    left: 53px;
 }
 .day:nth-child(5){
     top: 76px;
-    left: 34px;
+    left: 26px;
 }
 .day:nth-child(6){
     top: 53px;
@@ -256,6 +256,7 @@
     position: absolute;
     width: 20px;
     height: 20px;
+    line-height: 20px;
     text-align: center;
 }
 .month:nth-child(1){
@@ -263,49 +264,50 @@
     left: 40px;
 }
 .month:nth-child(2){
-    top: 11px;
-    left: 64px;
+    top: 8px;
+    right: 15px;
 }
 .month:nth-child(3){
-    top: 26px;
-    right: 7px;
+    top: 24px;
+    right: 5px;
 }
 .month:nth-child(4){
     top: 40px;
-    right: 5px;
+    right: 0;
 }
 .month:nth-child(5){
-    bottom: 26px;
-    right: 7px;
+    bottom: 24px;
+    right: 5px;
 }
 .month:nth-child(6){
-    bottom: 11px;
-    left: 64px;
+    bottom: 8px;
+    right: 15px;
 }
 .month:nth-child(7){
     bottom: 0;
     left: 40px;
 }
 .month:nth-child(8){
-    bottom: 11px;
-    right: 64px;
+    bottom: 8px;
+    left: 15px;
 }
 .month:nth-child(9){
-    bottom: 26px;
-    left: 7px;
+    bottom: 24px;
+    left: 5px;
 }
 .month:nth-child(10){
     top: 40px;
-    left: 5px;
+    left: 0;
 }
 .month:nth-child(11){
-    top: 26px;
-    left: 7px;
+    top: 24px;
+    left: 5px;
 }
 .month:nth-child(12){
-    top: 11px;
-    right: 64px;
+    top: 8px;
+    left: 15px;
 }
+
 .monthArrow{
     width: 2px;
     height: 48px;
@@ -353,5 +355,5 @@
     font-family: 'Orbitron', sans-serif;
 }
 .clock__digital{
-    width: 30px;
+    width: 35px;
 }
