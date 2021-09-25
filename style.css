@@ -5,8 +5,8 @@
 
 /*Clock*/
 .clock{
-    width: 500px;
-    height: 500px;
+    width: 320px;
+    height: 320px;
     background-image: url("assets/pattern.png");
     border: 2px solid black;
     box-sizing: border-box;
@@ -22,17 +22,17 @@
 }
 
 .logo{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     position: absolute;
-    top: 100px;
-    left: 225px;
+    top: 70px;
+    left: 145px;
 }
 
 /*Clock numbers*/
 .clock__numbers{
-    width: 500px;
-    height: 500px;
+    width: 320px;
+    height: 320px;
     position: relative;
 }
 .clock__number{
@@ -45,57 +45,57 @@
 }
 .clock__number:first-child{
     top: 0;
-    left: 225px;
+    left: 135px;
 }
 .clock__number:nth-child(2){
-    top: 40px;
-    right: 110px;
+    top: 30px;
+    right: 60px;
 }
 .clock__number:nth-child(3){
-    top: 120px;
-    right: 40px;
+    top: 80px;
+    right: 20px;
 }
 .clock__number:nth-child(4){
-    top: 225px;
+    top: 135px;
     right: 0;
 }
 .clock__number:nth-child(5){
-    bottom: 120px;
-    right: 40px;
+    bottom: 80px;
+    right: 20px;
 }
 .clock__number:nth-child(6){
-    bottom: 40px;
-    right: 110px;
+    bottom: 30px;
+    right: 60px;
 }
 .clock__number:nth-child(7){
     bottom: 0;
-    left: 225px;
+    left: 135px;
 }
 .clock__number:nth-child(8){
-    bottom: 120px;
-    left: 40px;
+    bottom: 30px;
+    left: 60px;
 }
 .clock__number:nth-child(9){
-    bottom: 40px;
-    left: 110px;
+    bottom: 80px;
+    left: 20px;
 }
 .clock__number:nth-child(10){
-    top: 225px;
+    top: 135px;
     left: 0;
 }
 .clock__number:nth-child(11){
-    top: 40px;
-    left: 110px;
+    top: 80px;
+    left: 20px;
 }
 .clock__number:nth-child(12){
-    top: 120px;
-    left: 40px;
+    top: 30px;
+    left: 60px;
 }
 
 /*Clock arrows*/
 .clock__arrows{
-    width: 500px;
-    height: 500px;
+    width: 320px;
+    height: 320px;
     position: absolute;
     top: 0;
 }
@@ -104,15 +104,13 @@
     box-sizing: border-box;
     border: 1px solid black;
 }
-.clock__middle{
-}
 .clock__arrow:first-child{
     z-index: 1;
     width: 10px;
-    height: 150px;
+    height: 100px;
     background-color: white;
-    top: 100px;
-    left: 245px;
+    top: 60px;
+    left: 155px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -121,10 +119,10 @@
 .clock__arrow:nth-child(2){
     z-index: 2;
     width: 6px;
-    height: 200px;
+    height: 130px;
     background-color: white;
-    top: 50px;
-    left: 247px;
+    top: 30px;
+    left: 157px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -133,10 +131,10 @@
 .clock__arrow:nth-child(3){
     z-index: 3;
     width: 2px;
-    height: 240px;
+    height: 156px;
     background-color: orange;
-    top: 10px;
-    left: 249px ;
+    top: 2px;
+    left: 158px ;
     transform-origin: center bottom;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -145,15 +143,15 @@
 }
 .clock__middle{
     z-index: 4;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     background-image: url("assets/pattern.png");
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
     position: absolute;
-    top: 225px;
-    left: 225px;
+    top: 145px;
+    left: 145px;
     border: 1px solid orange;
     box-sizing: border-box;
 }
@@ -167,8 +165,10 @@
     -moz-border-radius: 50%;
     border-radius: 50%;
     position: absolute;
-    top: 200px;
-    left: 80px;
+    top: 110px;
+    left: 40px;
+    border: 1px solid white;
+    box-sizing: border-box;
 }
 .day{
     text-transform: uppercase;
@@ -244,8 +244,10 @@
     -moz-border-radius: 50%;
     border-radius: 50%;
     position: absolute;
-    top: 200px;
-    right: 80px;
+    top: 110px;
+    right: 40px;
+    border: 1px solid white;
+    box-sizing: border-box;
 }
 .month{
     text-transform: uppercase;
@@ -338,18 +340,18 @@
     align-items: center;
     background-color: #434f3f;
     position: absolute;
-    bottom: 100px;
-    left: 125px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    bottom: 70px;
+    left: 80px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
     box-sizing: border-box;
-    border: 1px solid black;
-    width: 250px;
-    height: 50px;
-    font-size: 30px;
+    border: 1px solid white;
+    width: 160px;
+    height: 30px;
+    font-size: 20px;
     font-family: 'Orbitron', sans-serif;
 }
 .clock__digital{
-    width: 50px;
+    width: 30px;
 }
